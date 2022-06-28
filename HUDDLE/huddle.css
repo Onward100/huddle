@@ -1,0 +1,508 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+}
+.wrapper{
+    width: 100%;
+}
+body{
+    background-color: rgb(221, 212, 212);
+}
+.block{
+    padding: 20px;
+}
+.main{
+    background-image: url(bg-hero-mobile.svg);
+    width: 375px; 
+    height: 657px;
+}
+.logo1{
+    background-image: url(logo.svg);
+    width: 240px;
+    height: 39px;
+    transform: scale(.4);
+    margin-top: 10px;
+    margin-left: -50px;
+}
+.main .try{
+    position: relative;
+    border: white;
+    margin-left: 230px;
+    top: -30px;
+    border-radius: 20px ;
+    background-color: white;
+    padding: 5px;
+    width: 110px; 
+    transition: .4s ease;
+}
+.main a{
+    text-decoration: none;
+    color: black;
+}
+.main .try:hover{
+    background-color: rgb(106, 68, 84);
+}
+.main-body{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.main-body h1{
+    width: 300px;
+    font-size: 25px;
+    text-align: center;
+}
+.main-body p{
+    width: 330px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: -15px;
+    opacity: .8;
+}
+.main-body button{
+    margin-left: -3px;
+    margin-top: 30px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(171, 32, 90);
+    transition: .4s ease;
+}
+.main-body button:hover{
+    background-color: rgb(106, 68, 84);
+}
+.main-body a{
+    text-decoration: none;
+    color: white;
+}
+.mockup{
+    background-image: url(illustration-mockups.svg);
+    width: 1035px;
+    height: 739px;
+    transform: scale(.32);
+    margin-left: -370px;
+    margin-top: -100px;
+}
+.main-body2{
+    margin-top: 480px;
+    width: 19rem;
+    border: 2px solid rgba(255, 255, 255, 0.402);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px white;
+    background-color: white;
+}
+.main-body2 .background-image{
+    background-image: url(illustration-grow-together.svg);
+    width: 1023.46px;
+    height: 837px;
+    transform: scale(.31);
+    margin-left: -355px;
+    margin-top: -200px;
+}
+.main-body2 h1{
+    text-align: center;
+    margin-top: -220px;
+}
+.main-body2 p{
+    text-align: center;
+    margin-left: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: .8;
+    width: 300px;
+}
+.main-body3{
+    margin-top: 40px;
+    width: 19rem;
+    border: 2px solid rgba(255, 255, 255, 0.569);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px white;
+    background-color: white;
+}
+.image3{
+    background-image: url(illustration-flowing-conversation.svg);
+    width: 1125.12px; 
+    height: 800px;
+    transform: scale(.28);
+    margin-left: -400px;
+    margin-top: -190px;
+}
+.main-body3 h1{
+    text-align: center;
+    margin-top: -210px;
+    font-size: 25px;
+}
+.main-body3 p{
+    width: 290px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 16px;
+    opacity: .8;
+    margin-top: 10px;
+}
+.main-body4{
+    margin-top: 40px;
+    width: 19rem;
+    border: 2px solid rgba(255, 255, 255, 0.569);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px white;
+    background-color: white;
+}
+.image4{
+    background-image: url(illustration-your-users.svg);
+    width: 1077.87px; 
+    height: 813px;
+    transform: scale(.28);
+    margin-left: -390px;
+    margin-top: -220px;
+}
+.main-body4 h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -210px;
+}
+.main-body4 p{
+    width: 280px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: .8;
+}
+.container{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 18rem;
+    background-color: white;
+    padding: 10px;
+    margin-top: 90px;
+    margin-left: 25px;
+    height: 170px;
+    position: absolute;
+}
+.container h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    width: 330px;
+    margin-left: -20px;
+}
+.container button{
+    padding: 10px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: rgb(171, 32, 90);
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: .4s ease;
+    border: white;
+}
+.container button:hover{
+    background-color: rgb(106, 68, 84);
+}
+.container a{
+    color: white;
+    text-decoration: none;
+}
+.container2{
+    background-color: hsl(192, 100%, 9%);
+    height: fit-content;
+    padding: 10px;
+    margin-top: 200px;
+}
+.logo2{
+    background-image: url(logo2.svg);
+    width: 240px; 
+    height: 39px;
+    margin-top: 150px;
+    transform: scale(.8);
+}
+.location{
+    background-image: url(icon-location.svg);
+    width: 13px;
+    height: 18px;
+    margin-top: 20px;
+    margin-left:25px;
+}
+.container2 .lorem{
+    margin-left: 70px;
+    color: white;
+    margin-top: -20px;
+    width: 280px;
+    font-size: 16px;
+    opacity: .8;
+}
+.phone::before{
+    content: url(icon-phone.svg);
+    width: 18px;
+    height: 18px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.phone{
+    color: white;
+    opacity: .8;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.email::before{
+    content: url(icon-email.svg);
+    width: 20px;
+    height: 16px;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.email a{
+    color: white;
+    text-decoration: none;
+    opacity: .7;
+}
+.container2 a:hover{
+    color: rgb(106, 68, 84);
+}
+.links{
+    margin-top: 50px;
+}
+.links li{
+    list-style-type: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: .4s ease;
+}
+.links a:hover{
+    color: rgb(106, 68, 84);
+}
+.links2{
+    margin-left: 70px;
+}
+.links2 .fa-brands{
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    transition: .4s ease;
+}
+.links2 .fa-brands:hover{
+    color: rgb(106, 68, 84);
+}
+.copyright p{
+    color: white;
+    margin-left: 60px;
+    margin-top: -15px;
+    font-size: 12px;
+    width: 250px;
+}
+.copyright i{
+    position: relative;
+    color: white;
+    opacity: .7;
+    margin-left: 40px;
+    top: 5px;
+}
+@media (min-width: 900px) {
+    body{
+    background-color: rgb(230, 226, 226);
+    }
+    .logo1{
+        position: relative;
+        top: 20px;
+        left: 60px;
+        transform: scale(.8);
+    }
+    .block{
+        padding: 30px;
+    }
+    .main .try{
+        position: relative;
+        left: 950px;
+        top: -10px;
+    }
+    .mockup{
+        position: relative;
+        left: 860px;
+        top: -360px;
+        transform: scale(.5);
+    }
+    .main-body h1{
+        position: relative;
+        top: 20px;
+        left: 5px;
+        width: 400px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .main-body p{
+        position: relative;
+        left: 25px;
+        top: 20px;
+        text-align: left;
+        width: 600px;
+    }
+    .main-body button{
+        position: relative;
+        left: 17px;
+        top: 10px;
+        width: 250px;
+    }
+    .main{
+        background-image: url(bg-hero-desktop.svg);
+        width: 1440px; 
+        height: 100vh;
+    }
+    .main-body2{
+        border: 1px solid rgb(244, 240, 240);
+        margin-top: 80px;
+        height: 500px;
+        background-color: white;
+        width: 78rem;
+    }
+    .main-body2 .background-image{
+        position: relative;
+        left: 800px;
+        top: 10px;
+        transform: scale(.5);
+    }
+    .main-body2 h1{
+        text-align: left;
+        position: relative;
+        left: 75px;
+        top: -250px;
+    }
+    .main-body2 p{
+        position: relative;
+        top: -250px;
+        left: 70px;
+        text-align: left;
+        width: 500px;
+    }
+    .main-body3{
+        border: 1px solid rgb(244, 240, 240);
+        margin-top: 50px;
+        height: 470px;
+        background-color: white;
+        width: 78rem;
+    }
+    .main-body3 .image3{
+        position: relative;
+        top: 50px;
+        left: 140px;
+        transform: scale(.5);
+    }
+    .main-body3 h1{
+        text-align: left;
+        position: relative;
+        left: 800px;
+        top: -250px;
+    }
+    .main-body3 p{
+        position: relative;
+        top: -240px;
+        left: 790px;
+        text-align: left;
+        width: 400px;
+    }
+    .main-body4{
+        border: 1px solid rgb(230, 220, 220);
+        margin-top: 50px;
+        height: 500px;
+        background-color: white;
+        width: 78rem;
+    }
+    .main-body4 .image4{
+        position: relative;
+        left: 800px;
+        top: 50px;
+        transform: scale(.5);
+    }
+    .main-body4 h1{
+        position: relative;
+        top: -280px;
+        left: 56px ;
+        text-align: left;
+    }
+    .main-body4 p{
+        text-align: left;
+        position: relative;
+        top: -270px;
+        left: 50px;
+        width: 450px;
+        font-size: 18px;
+        opacity: .8;
+    }
+    .container{
+        position: absolute;
+        left: 330px;
+        width: 600px;
+        height: 180px;
+    }
+    .container h1{
+        position: relative;
+        left: 10px;
+        font-size: 30px;
+        width: 560px;
+        margin-left: 10px;
+    }
+    .container button{
+        margin-left: 160px;
+        margin-top: 50px;
+        border: white;
+        width: 280px;
+    }
+    .container2{
+        height: 560px;
+    }
+    .logo2{
+        margin-left: 140px;
+    }
+    .location{
+        margin-left: 165px;
+    }
+    .lorem{
+        position: relative;
+        left: 140px;
+    }
+    .phone{
+        margin-left: 145px;
+    }
+    .email{
+        margin-left: 145px;
+    }
+    .links{
+        margin-left: 650px;
+        margin-top: -280px;
+    }
+    .links2{
+        margin-left: 950px;
+        margin-top: -180px;
+    }
+    .links2 .fa-brands{
+        color: white;
+        padding: 10px;
+    }.links2 .fa-brands:hover{
+        color: rgb(106, 68, 84);
+    }
+    .copyright{
+        margin-left: 1000px;
+        margin-top: 81px;
+    }
+    .copyright .fa-solid{
+        position: relative;
+        left: 3px;
+        color: white;
+        opacity: .7;
+        top: 7px;
+    }
+    .copyright p{
+        position: relative;
+        top: .9px;
+    }
+}
+
